@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Account Page</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="Room number"], 
+    input[type="Number of people"], 
+
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: #fff;
+      border-radius: 4px;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+input{
+    background-color: #fff;
+    color: black;
+}
+    
+  </style>
+</head>
+
+<body>
+  <div class="me">
+    <ul>
+      <li><a href="login.html">LOGIN</a></li>
+      <li><a href="meeting.html">MEETING ROOMS</a></li>
+      <li><a href="index.html">HOME</a></li>
+    </ul>
+  </div>
+  <div class="container" style="position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 800px;">
+    <h2>Account Page</h2>
+
+    <form action="index.html">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+     
+      <div class="form-group">
+        <label for="Room number">Room number:</label>
+        <input type="Room number" id="Room number" name="Room number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="Number of people">Number of people:</label>
+        <input type="Number of people" id="Number of people" name="Number of people"" required>
+      </div>
+      <input type="date">
+
+      <div class="form-group">
+<a href="index.html"><input type="submit" value="Book" class="button"></a> 
+       
+      </div>
+    
+    </form>
+  </div>
+
+</body>
+
+</html>
